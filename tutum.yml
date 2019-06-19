@@ -1,0 +1,5 @@
+rainbo.ws:
+  image: 'tutum.co/subprocess/rainbo.ws'
+  restart: always
+  environment:
+    - 'VIRTUAL_HOST=www.rainbo.ws, rainbo.ws'
